@@ -1,0 +1,26 @@
+<div class="">
+<h1>ARTISTS</h1>
+
+<div class="users_block">
+<%= form_for(@artist) do |f| %>
+<div>
+  <p><%= f.label :name %></p>
+  <%= f.text_field :name %>
+</div>
+
+<div>
+  <p><%= f.label :birth_date %></p>
+  <%= f.text_field :birth_date %>
+</div>
+
+<h5>Just the best Music</h5>
+
+<div>
+  <%= f.submit "Save Artist" %>
+</div>
+
+<p><%= link_to "Find your Artists", :class => "btn btn-primary btn-lg orange darken-1" %>
+
+<% end %>
+</div>
+</div>

@@ -1,0 +1,26 @@
+<div class="">
+<h1>SONGS</h1>
+
+<div class="users_block">
+<%= form_for(@song) do |f| %>
+<div>
+  <p><%= f.label :title %></p>
+  <%= f.text_field :title %>
+</div>
+
+<div>
+  <p><%= f.label :duration %></p>
+  <%= f.text_field :duration %>
+</div>
+
+<h5>Just the best Songs</h5>
+
+<div>
+  <%= f.submit "Save Song" %>
+</div>
+
+<p><%= link_to "Find your Songs", :class => "btn btn-primary btn-lg orange darken-1" %>
+
+<% end %>
+</div>
+</div>
