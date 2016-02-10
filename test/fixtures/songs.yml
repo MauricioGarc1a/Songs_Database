@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  plot: MyText
+  picture: MyString
+  realease_date: 2016-02-10
+  duration: 1
+  artist_id: 
+
+two:
+  title: MyString
+  plot: MyText
+  picture: MyString
+  realease_date: 2016-02-10
+  duration: 1
+  artist_id: 
