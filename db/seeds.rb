@@ -12,7 +12,7 @@ zoe = Artist.create ({name:"Zoe", birth_date:Date.parse("1995"), country:"Mexico
     plot:"Zoe es una banda mexicana de rock formada en 1995 en Cuernavaca y oficializada en la Ciudad de México "})
 
 Song.destroy_all
-Song.create ([
+Song.create([
   {title:"Eres", plot:"Spanish Rock", picture:"https://elcafetindelas5.files.wordpress.com/2012/08/cafe-tacuba-cuatro-caminos-del-2003-delantera.jpg",
   realease_date:Date.parse("2007"), duration:3.10},
   {title:"Ingrata", plot:"Spanish Folklore", picture:"http://1.bp.blogspot.com/-iZotOTb0Z-0/Uh4C7sWK0cI/AAAAAAAAB5M/Axew1qI7SKs/s1600/2.jpg",
